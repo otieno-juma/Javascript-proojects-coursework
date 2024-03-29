@@ -1,0 +1,20 @@
+.shopping-container{
+    margin-top: 2rem;
+    transition: var(--transition);
+    visibility:hidden ;
+}
+
+.show-container {
+    visibility: visible;
+    /* text-align: center; */
+}
+
+.shopping-item{
+    display: flex;
+    justify-content: space-between;
+    margin: 0.5rem;
+    transition: var(--transition);
+    padding: 0.25rem 1rem;
+    border-radius: var(--radius);
+    text-transform: capitalize;
+}
